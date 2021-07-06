@@ -1,0 +1,53 @@
+.circulardiv{
+    display: flex;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    background-color:rgb(240, 65, 94);
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    z-index: 2;
+}
+
+.circulardiv span i{
+    background-color: red;
+    /* align-items: center; */
+    text-align: center;
+}
+  .fa-bars:before{
+    position: absolute;
+    left: .78em;
+    top: .72em;
+}
+.willshow{
+    display: none;
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+    background-color: rgba(240, 63, 63, 0.589);
+    padding: 1em;
+}
+.togglerlist{
+    list-style-type: none;
+    padding-left: 0;
+}
+.togglerlist li{
+    /* padding-left: 0; */
+    padding: .5em .3em;
+}
+.togglerlist li:hover{
+    background-color: rgba(240, 63, 63, 0.849);
+}
+.togglerlist li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.3em;
+}
+.willshow:hover{
+    display: initial;
+}
+.circulardiv:hover ~ .willshow{
+    display: block;
+ }

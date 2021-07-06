@@ -1,0 +1,48 @@
+.backgroundphoto{
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .97);
+    height: 25rem;
+   
+    color: white;
+     justify-content: center;
+     align-items: center;
+    
+}
+.centername{
+    font-size: 40px;
+    letter-spacing: 1.1rem;
+    font-weight: 100;
+    z-index: 2;
+    text-align: center;
+}
+.topcenterphoto{
+    position: absolute;
+
+}
+.topcenterphoto img{
+    width: 500px;
+    height: 400px;
+    opacity: .4;
+}
+.centerphoto{
+    
+    position: absolute;
+    top: 21em;
+    width: 100px;
+    height: 100px;
+     border-radius: 100px;
+     border: 4px black solid;
+     text-align: center;
+      overflow:hidden;
+}
+.centerphoto a{
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.centerphoto a img{
+    width: 100px;
+    height: 100px;
+}
