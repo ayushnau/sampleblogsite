@@ -13,7 +13,7 @@ const Introphoto = () => {
             </div>
 
             <div className="centername">
-                Ayush Nautiyal
+                Aviculanians
             </div>
             <div className="centerphoto">
                 <a href="https://google.com">
